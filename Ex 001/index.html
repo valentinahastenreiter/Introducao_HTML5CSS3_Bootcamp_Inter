@@ -4,26 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Valentina Hastenreiter</title>
   </head>
   <body>
     <header>
-      <img src="../Ex 001/img/pp (1).jfif" alt="Foto Valentina" />
-      <h1>Olá, mundo! Me chamo Valentina.</h1>
+      <img src="../Ex 001/img/pp (1).jfif" alt="Foto Valentina" class="photo"/>
+      <h1 id="title">Olá, mundo! Me chamo Valentina.</h1>
     </header>
     <section>
       <header>
-        <h2>Posts</h2>
+        <h2 class="subtitle">Posts</h2>
       </header>
-      <article>
+      <article class="post">
         <header>
-          <h3>Post #1</h3>
+          <h3 class="postTitle">Post #1</h3>
           <img
             src="../Ex 001/img/roonz-nl-2xEQDxB0ss4-unsplash.jpg"
             alt="Código HTML"
+            class="postImage"
           />
         </header>
-        <p>
+        <p class="postContent">
           Lorem ipsum dolor sit amet
           <a href="mailto:valentina.hastenreiter@gmail.com">lorem mail</a>
           adipisicing elit. Dolore eveniet, quaerat officia reiciendis sequi,
@@ -36,6 +38,15 @@
         </p>
       </article>
     </section>
-    <footer></footer>
+    <footer>
+      <ul class="contactList">
+        <li>
+          <a href="mailto:valentina.hastenreiter@gmail.com">valetina.hastenreiter@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/valentina-hastenreiter/" target="_blank">LinkedIn</a></li>
+          <li>
+            <a href="https://github.com/valentinahastenreiter" target="_blank">GitHub</a>
+          </li>
+      </ul>
+    </footer>
   </body>
 </html>
